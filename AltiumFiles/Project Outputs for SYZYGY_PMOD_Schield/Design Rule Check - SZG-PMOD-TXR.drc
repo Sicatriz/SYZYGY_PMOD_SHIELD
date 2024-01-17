@@ -1,0 +1,86 @@
+Protel Design System Design Rule Check
+PCB File : D:\PXL\ProjectTechnologie\OpdrachtZyZYGY\GithubPmodShield\SYZYGY_PMOD_SHIELD\AltiumFiles\SZG-PMOD-TXR.PcbDoc
+Date     : 17/01/2024
+Time     : 23:41:48
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=50mil) (Name Like 'FID*'),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=100mil) (Preferred=16mil) (InNetClass('okPower'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=3mil) (Max=100mil) (Preferred=5mil) (All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=8mil) (MaxHoleWidth=40mil) (PreferredHoleWidth=8mil) (MinWidth=14mil) (MaxWidth=60mil) (PreferedWidth=14mil) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=6mil) (Max=6mil) (Prefered=6mil)  and Width Constraints (Min=5.25mil) (Max=5.25mil) (Prefered=5.25mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (IsVia)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (Not IsVia)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=10mil) (Max=150mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=3mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=1mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Via (622.65mil,-164.497mil) from L1-TOP to L4-BOT 
+Rule Violations :1
+
+Processing Rule : Matched Lengths(Tolerance=185mil) (InxSignalClass('xSignals_SFP1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=10mil) (InxSignalClass('xSignals_SFP'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=185mil) (InxSignalClass('xSignals_SFP2'))
+Rule Violations :0
+
+Processing Rule : Maximum Via Count Constraint (Limit=2) (InNetClass('okDDR2Data') Or InNetClass('okDDR2Masks') Or InNetClass('okDDR2Strobes'))
+Rule Violations :0
+
+Processing Rule : Maximum Via Count Constraint (Limit=3) (InNetClass('okDDR2AddrCtrl') Or InNet('DRAM_C\K\') Or InNet('DRAM_CK'))
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 10mil, Vertical Gap = 10mil ) (Disabled)(All),(All) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Waived Violations Of Rule : Net Antennae (Tolerance=0mil) (All)
+   Waived Violation between Net Antennae: Via (622.65mil,-141.214mil) from L1-TOP to L4-BOT Waived by miguel  nunez at 17/01/2024 21:36:30
+Waived Violations :1
+
+
+Violations Detected : 1
+Waived Violations : 1
+Time Elapsed        : 00:00:02
